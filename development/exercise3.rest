@@ -1,0 +1,5 @@
+@host = http://localhost:3000/jwt
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZG9lIiwiaWF0IjoxNjU4MzUwMDE4LCJleHAiOjE2NTgzNTM2MTh9.tP9RGECT3rp7_4R3fGGnMtG5n82k3PBQqX5sri2efYM
+
+GET {{host}}/restricted
+Authorization: Bearer {{token}}

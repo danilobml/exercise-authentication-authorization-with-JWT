@@ -1,0 +1,5 @@
+# here I would normally include .env and development/, 
+# but to make it easier for the correction, 
+# I'll exclude only node_modules
+
+node_modules/
